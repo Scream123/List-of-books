@@ -162,11 +162,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.btn-primary {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-}
-
 .btn-primary:last-of-type {
     margin-right: 0;
 }
@@ -221,6 +216,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .row.d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -230,6 +226,7 @@ h1 {
     flex: 1;
     margin-bottom: 10px;
 }
+
 @media (max-width: 767px) {
     .row.d-flex {
         flex-direction: row;
@@ -289,4 +286,7 @@ h1 {
     }
 }
 
+.main-content {
+    min-height: 85vh;
+}
 
